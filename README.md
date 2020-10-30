@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/recorder
+vd plugin install https://github.com/kjeco/recorder
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/recorder
+vd plugin uninstall https://github.com/kjeco/recorder
 ```
 
 ## 引用
