@@ -1,11 +1,11 @@
-package vd.android.recorder.module.recorder;
+package eco.android.recorder.module.recorder;
 
 import android.os.Environment;
 
-import app.vd.framework.ui.vd;
+import app.eco.framework.ui.eco;
 
 public class Constant {
-    public static final String ROOT_PATH = Environment.getExternalStorageDirectory() + "/" + vd.getApplication().getPackageName()+ "/recorder";
+    public static final String ROOT_PATH = Environment.getExternalStorageDirectory() + "/" + eco.getApplication().getPackageName()+ "/recorder";
     public static final int DEFAULT_TIMEOUT_MS = 3000;
 
     //nat 自定义receiver的action

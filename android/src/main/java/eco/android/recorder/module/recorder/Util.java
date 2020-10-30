@@ -1,4 +1,4 @@
-package vd.android.recorder.module.recorder;
+package eco.android.recorder.module.recorder;
 
 import android.content.Context;
 import android.text.TextUtils;

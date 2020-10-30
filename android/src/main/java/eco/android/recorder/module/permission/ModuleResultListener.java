@@ -1,4 +1,4 @@
-package vd.android.recorder.module.permission;
+package eco.android.recorder.module.permission;
 
 /**
  * Created by Acathur on 17/2/7.

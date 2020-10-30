@@ -1,12 +1,12 @@
-package vd.android.recorder.entry;
+package eco.android.recorder.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.recorder.module.ApprecorderModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.recorder.module.ApprecorderModule;
 
 @ModuleEntry
 public class recorderEntry {
@@ -19,7 +19,7 @@ public class recorderEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdRecorder", ApprecorderModule.class);
+            WXSDKEngine.registerModule("ecoRecorder", ApprecorderModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

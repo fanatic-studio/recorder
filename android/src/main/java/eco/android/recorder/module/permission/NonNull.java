@@ -1,4 +1,4 @@
-package vd.android.recorder.module.permission;
+package eco.android.recorder.module.permission;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

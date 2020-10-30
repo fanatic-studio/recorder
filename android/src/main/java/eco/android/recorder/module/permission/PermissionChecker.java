@@ -1,4 +1,4 @@
-package vd.android.recorder.module.permission;
+package eco.android.recorder.module.permission;
 
 import android.app.Activity;
 import android.app.AlertDialog;

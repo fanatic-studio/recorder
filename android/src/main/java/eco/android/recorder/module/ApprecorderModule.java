@@ -1,4 +1,4 @@
-package vd.android.recorder.module;
+package eco.android.recorder.module;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,11 +13,11 @@ import com.taobao.weex.common.WXModule;
 import java.util.HashMap;
 import java.util.Locale;
 
-import vd.android.recorder.module.permission.PermissionChecker;
-import vd.android.recorder.module.recorder.Constant;
-import vd.android.recorder.module.recorder.ModuleResultListener;
-import vd.android.recorder.module.recorder.RecorderModule;
-import vd.android.recorder.module.recorder.Util;
+import eco.android.recorder.module.permission.PermissionChecker;
+import eco.android.recorder.module.recorder.Constant;
+import eco.android.recorder.module.recorder.ModuleResultListener;
+import eco.android.recorder.module.recorder.RecorderModule;
+import eco.android.recorder.module.recorder.Util;
 
 public class ApprecorderModule extends WXModule {
 
@@ -45,7 +45,7 @@ public class ApprecorderModule extends WXModule {
             mCallParams = params;
             mCallCallback = jsCallback;
 
-            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new vd.android.recorder.module.permission.ModuleResultListener() {
+            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new eco.android.recorder.module.permission.ModuleResultListener() {
                 @Override
                 public void onResult(Object o) {
                     if ((boolean)o == true) jsCallback.invoke(Util.getError(Constant.RECORD_AUDIO_PERMISSION_DENIED, Constant.RECORD_AUDIO_PERMISSION_DENIED_CODE));

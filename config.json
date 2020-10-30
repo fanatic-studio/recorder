@@ -1,6 +1,6 @@
 {
 	"desc": "录音机支持声道、波段",
-	"requireFormatName": "vdRecorder",
-	"requireName": "vd/recorder",
+	"requireFormatName": "ecoRecorder",
+	"requireName": "eco/recorder",
 	"title": "录音机"
 }

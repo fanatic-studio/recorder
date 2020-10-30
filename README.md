@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/kjeco/recorder
+eco plugin install https://github.com/kjeco/recorder
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/kjeco/recorder
+eco plugin uninstall https://github.com/kjeco/recorder
 ```
 
 ## 引用
 
 ```js
-const recorder = app.requireModule("vd/recorder");
+const recorder = app.requireModule("eco/recorder");
 ```
 
 ### start(options, callback) 开始录音
